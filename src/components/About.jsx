@@ -1,3 +1,4 @@
+import React from "react";
 import SectionTitle from "./SectionTitle";
 import aboutImg from "../assets/about.svg";
 
@@ -13,7 +14,7 @@ const About = () => {
 					</p>
 				</article>
 			</div>
-		</section> 
+		</section>
 	);
 };
 

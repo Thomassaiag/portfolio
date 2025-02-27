@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { FaLinkedinIn, FaGithubSquare } from "react-icons/fa";
 
 import herImg from "../assets/hero.svg";

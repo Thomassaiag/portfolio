@@ -1,3 +1,4 @@
+import React from 'react'
 import twxLogo from "../assets/twxLogo.svg";
 
 const TwxLogo = () => {

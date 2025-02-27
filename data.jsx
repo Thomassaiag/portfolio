@@ -1,3 +1,4 @@
+import React from 'react'
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaPython } from 'react-icons/fa';
 import TwxLogo from './src/components/TwxLogo';
