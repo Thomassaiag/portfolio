@@ -14,18 +14,18 @@ const Hero = () => {
 					<p className=" mt-4 text-3xl text-slate-600 capitalize tracking-wide">
 						Développeur Full-Stack
 					</p>
+					<div className="flex flex-row gap-x-4 text-3xl mt-4">
+						<a href={linkedinLink} target="_blank">
+							<FaLinkedinIn className="h-8 w-8 text-slate-500 hover: text-black" />
+						</a>
+						<a href={gitHubLink} target="_blank">
+							<FaGithubSquare className="h-8 w-8 text-slate-500 hover: text-black" />
+						</a>
+					</div>
 				</article>
-				<div className="flex flex-row gap-x-4 text-3xl mt-4">
-					<a href={linkedinLink} target="_blank">
-						<FaLinkedinIn className="h-8 w-8 text-slate-500 hover: text-black" />
-					</a>
-					<a href={gitHubLink} target="_blank">
-						<FaGithubSquare className="h-8 w-8 text-slate-500 hover: text-black" />
-					</a>
-				</div>
-			</div>
-			<div>
-				<img className="w-50" src={herImg} alt="hero image" />
+				<article className="invisible  md:visible">
+					<img className="h-80 ld:h-96 w-auto" src={herImg} alt="hero image" />
+				</article>
 			</div>
 		</div>
 	);
