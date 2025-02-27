@@ -6,7 +6,7 @@ const gitHubLink = "https://github.com/Thomassaiag";
 const Hero = () => {
 	return (
 		<div className="bg-emerald-100 py-24">
-			<div className="mx-auto max-w-7xl px-8 py-4 grid md:grid-cols-2">
+			<div className="align-element py-4 grid md:grid-cols-2">
 				<article>
 					<h1 className="text-7xl font-bold tracking-wider">
 						Je suis Thomas
