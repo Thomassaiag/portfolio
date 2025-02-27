@@ -1,9 +1,11 @@
 import React from 'react'
 
-const SectionTitle = () => {
+const SectionTitle = ({text}) => {
   return (
-		<div className='align-elements'>
-			<h4>Tech Stack</h4>
+		<div className="align-elements capitalize border-b border-gray-200 pb-5">
+			<h2 className="text-3xl font-medium tracking-wider capitalize">
+				{text}
+			</h2>
 		</div>
   );
 }
