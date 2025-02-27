@@ -1,5 +1,12 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 const App = () => {
-    return (
-    <h1 className="text-3xl bg-sky-950 underline">Hello world</h1>)
+	return (
+		<>
+			<Navbar />
+            <Hero/>
+		</>
+	);
 };
 export default App;
