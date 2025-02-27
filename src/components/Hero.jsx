@@ -2,7 +2,8 @@ import { FaLinkedinIn, FaGithubSquare } from "react-icons/fa";
 
 import herImg from "../assets/hero.svg";
 const linkedinLink = "https://www.linkedin.com/in/thomas-saiag-5a56232/";
-const gitHubLink = "https://github.com/Thomassaiag";
+import { gitHubLink } from "../../data";
+
 const Hero = () => {
 	return (
 		<div className="bg-emerald-100 py-24">
