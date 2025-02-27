@@ -9,11 +9,7 @@ const About = () => {
 				<article>
 					<SectionTitle text="About me" />
 					<p className="text-slate-600 mt-8 leading-loose">
-						Lorem, ipsum dolor sit amet consectetur adipisicing
-						elit. Consequatur provident et ratione, corporis
-						temporibus non, eos vitae facilis ipsa debitis rem dolor
-						autem molestiae. Dolor alias impedit perferendis ex
-						cupiditate.
+						To update
 					</p>
 				</article>
 			</div>

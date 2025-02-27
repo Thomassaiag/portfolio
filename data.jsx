@@ -14,31 +14,31 @@ export const skills = [
 		id: nanoid(),
 		title: "HTML&CSS",
 		icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-		text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+		text: "To udpate",
 	},
 	{
 		id: nanoid(),
 		title: "Javascript",
 		icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-		text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+		text: "To update",
 	},
 	{
 		id: nanoid(),
 		title: "React",
 		icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-		text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+		text: "To update",
 	},
 	{
 		id: nanoid(),
 		title: "Python",
 		icon: <FaPython className="h-16 w-16 text-emerald-500" />,
-		text: "",
+		text: "To update",
 	},
 	{
 		id: nanoid(),
 		title: "Thingworx",
 		icon: <TwxLogo />,
-		text: "",
+		text: "To update",
 	},
 ];
 
