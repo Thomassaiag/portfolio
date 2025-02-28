@@ -2,14 +2,17 @@ import React from 'react'
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaPython } from 'react-icons/fa';
 import TwxLogo from './src/components/TwxLogo';
+import resume from './public/CV_Thomas_Saiag.pdf'
+
 
 export const gitHubLink = "https://github.com/Thomassaiag";
 
 export const links = [
-  { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#skills', text: 'skills' },
-  { id: nanoid(), href: '#about', text: 'about' },
-  { id: nanoid(), href: '#projects', text: 'projects' },
+	{ id: nanoid(), href: "#home", text: "home" },
+	{ id: nanoid(), href: "#skills", text: "skills" },
+	{ id: nanoid(), href: "#about", text: "about" },
+	{ id: nanoid(), href: "#projects", text: "projects" },
+	{ id: nanoid(), href: '#resume', text: "resume" },
 ];
 
 export const skills = [
