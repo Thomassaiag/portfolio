@@ -1,21 +1,22 @@
-import React from 'react'
+import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Resume from './components/Resume';
+import { createBrowserRouter, RouterProvider} from "react-router";
+import HomeLayout from "./pages/HomeLayout";
 
+const router = createBrowserRouter([
+	{
+		path: "/",
+		element: <HomeLayout />,
+	},
+	{
+		path: "/project/:id",
+		element: <HomeLayout />,
+	},
+]);
 const App = () => {
 	return (
-		<>
-			<Navbar />
-			<Hero />
-			<Skills />
-			<About />
-            <Projects />
-            <Resume />
-		</>
+		<RouterProvider router={router}>
+		</RouterProvider>
 	);
 };
 export default App;
