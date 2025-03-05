@@ -79,7 +79,7 @@ export const projects = [
 		github: "https://github.com/Thomassaiag/MixMatcherSolo",
 		title: "Shakr",
 		text: `A fun project to fetch a Cocktail API
-        Query with React Queries
+        Fetch with axios and React Queries to allow caching
         Singe Page Application with React Router
         Execution confirmation with Toastify`,
 	},
