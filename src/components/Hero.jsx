@@ -12,10 +12,10 @@ const Hero = () => {
 			<div className="align-element py-4 grid md:grid-cols-2">
 				<article>
 					<h1 className="text-7xl font-bold tracking-wider">
-						Je suis Thomas
+						I'm Thomas
 					</h1>
 					<p className=" mt-4 text-3xl text-slate-600 capitalize tracking-wide">
-						Développeur Full-Stack
+					 Full-Stack developer
 					</p>
 					<div className="flex flex-row gap-x-4 text-3xl mt-4">
 						<a href={linkedinLink} target="_blank">
