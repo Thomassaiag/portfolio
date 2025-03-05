@@ -70,23 +70,25 @@ export const projects = [
 		url: "http://188.165.238.74:14000/",
 		github: "https://github.com/Thomassaiag/SitePoterieLaure",
 		title: "Laure Poterie",
-		text: "Product visualisation \nAuthentication and Secured Routes setup with JWT \nAdmin features (full site update) \nNewsLetter subscription \nMessages sending with Nodemailer \nTested with Vitest \nDeployed with a CI/CD and Docker"
-        ,
+		text: "Product visualisation \nAuthentication and Secured Routes setup with JWT \nAdmin features (full site update) \nNewsLetter subscription \nMessages sending with Nodemailer \nTested with Vitest \nDeployed with a CI/CD and Docker",
 	},
 	{
 		id: nanoid(),
-		img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
-		url: "https://react-projects.netlify.app/",
-		github: gitHubLink,
-		title: "second project",
-		text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+		img: "./images/mixMatcher.JPG",
+		url: "https://shakr.netlify.app/",
+		github: "https://github.com/Thomassaiag/MixMatcherSolo",
+		title: "Shakr",
+		text: `A fun project to fetch a Cocktail API
+        Query with React Queries
+        Singe Page Application with React Router
+        Execution confirmation with Toastify`,
 	},
 	{
 		id: nanoid(),
-		img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-		url: "https://react-projects.netlify.app/",
-		github: gitHubLink,
-		title: "third project",
-		text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+		img: "./images/Portfolio.JPG",
+		url: "https://thomassaiagportfolio.netlify.app/",
+		github: "https://github.com/Thomassaiag/portfolio",
+		title: "This Portfolio (A bit Meta, I know...)",
+		text: "Experimenting with TailwindCSS.",
 	},
 ];

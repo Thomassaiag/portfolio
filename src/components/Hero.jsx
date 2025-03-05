@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import { FaLinkedinIn, FaGithubSquare } from "react-icons/fa";
 
@@ -15,11 +15,11 @@ const Hero = () => {
 						I'm Thomas
 					</h1>
 					<p className=" mt-4 text-3xl text-slate-600 capitalize tracking-wide">
-					 Full-Stack developer
+						Full-Stack developer
 					</p>
 					<div className="flex flex-row gap-x-4 text-3xl mt-4">
 						<a href={linkedinLink} target="_blank">
-							<FaLinkedinIn className="icons"/>
+							<FaLinkedinIn className="icons" />
 						</a>
 						<a href={gitHubLink} target="_blank">
 							<FaGithubSquare className="icons" />
@@ -27,7 +27,11 @@ const Hero = () => {
 					</div>
 				</article>
 				<article className="invisible  md:visible">
-					<img className="h-80 ld:h-96 w-auto" src={herImg} alt="hero image" />
+					<img
+						className="h-80 ld:h-96 w-auto"
+						src={herImg}
+						alt="hero image"
+					/>
 				</article>
 			</div>
 		</div>
